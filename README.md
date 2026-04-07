@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/software-income-playbooks-header.png" alt="Software Income Playbooks header" width="100%" />
+</p>
+
 <div align="center">
 
 # Software Income Playbooks
