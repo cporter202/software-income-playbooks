@@ -12,4 +12,6 @@ Browse the repo by market or commercial use case.
 | [Real Estate](./real-estate.md) | Listing intelligence, lead gen, and market monitoring |
 | [Market Intelligence](./market-intelligence.md) | Research products, dashboards, and monitoring workflows |
 | [Content Automation](./content-automation.md) | Transcript, summary, and content repurposing workflows |
-
+| [SEO And Content](./seo-and-content.md) | Search opportunity, content planning, and benchmark products |
+| [Hospitality And Travel](./hospitality-and-travel.md) | Review intelligence, price monitoring, and concierge workflows |
+| [Funding And Risk](./funding-and-risk.md) | Grants, compliance, disruption monitoring, and executive briefings |

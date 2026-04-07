@@ -15,10 +15,11 @@ Social APIs are strongest when they power research, sponsorship prospecting, mon
 - [Reddit Scraper](../apis/reddit-scraper.md)
 - [Find Top Sponsors](../apis/find-top-sponsors.md)
 - [Youtube Transcript Scraper](../apis/youtube-transcript-scraper.md)
+- [LinkedIn Post Scraper](../apis/linkedin-post-scraper.md)
 
 ## Good Starter Offers
 
 - [Creator Sponsorship Prospector](../playbooks/creator-sponsorship-prospector.md)
 - [Social Listening Alert System](../playbooks/social-listening-alert-system.md)
 - [Content Repurpose Studio](../playbooks/content-repurpose-studio.md)
-
+- [LinkedIn Content Benchmark](../playbooks/linkedin-content-benchmark.md)

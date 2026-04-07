@@ -18,6 +18,16 @@ These are concrete software income ideas built around selected APIs. Each playbo
 | [Real Estate Listing Intelligence](./real-estate-listing-intelligence.md) | Investors, wholesalers, and broker teams | 1 to 2 weeks | Lead gen asset / SaaS |
 | [Social Listening Alert System](./social-listening-alert-system.md) | Agencies, brands, research teams | 3 to 10 days | Internal tool / SaaS |
 | [Company Research Briefing Service](./company-research-briefing-service.md) | B2B agencies and consultants | 3 to 7 days | Productized service |
+| [Review Recovery Engine](./review-recovery-engine.md) | Local businesses and reputation agencies | 3 to 7 days | Agency service / micro-SaaS |
+| [LinkedIn Ad Intelligence Vault](./linkedin-ad-intelligence-vault.md) | B2B marketers and agencies | 1 week | SaaS / intelligence product |
+| [SEO Opportunity Briefing](./seo-opportunity-briefing.md) | SEO agencies and niche builders | 3 to 7 days | Productized service |
+| [Supplier Risk Watchtower](./supplier-risk-watchtower.md) | Importers and procurement teams | 1 to 2 weeks | Premium SaaS |
+| [Grant And Compliance Radar](./grant-and-compliance-radar.md) | Consultants and regulated operators | 1 week | SaaS / service |
+| [Travel Price Watch Concierge](./travel-price-watch-concierge.md) | Frequent business travelers | 3 to 7 days | Automation / concierge product |
+| [Hospitality Reputation Monitor](./hospitality-reputation-monitor.md) | Hotels, restaurants, consultants | 1 week | SaaS / service |
+| [LinkedIn Content Benchmark](./linkedin-content-benchmark.md) | Founders and ghostwriters | 3 to 7 days | Productized service / SaaS |
+| [Account Intel Copilot](./account-intel-copilot.md) | Agencies and B2B sales teams | 3 to 7 days | Internal tool / SaaS |
+| [Geopolitical Risk Brief](./geopolitical-risk-brief.md) | Importers and executives | 1 week | Paid briefing / premium intel |
 
 ## What Makes A Good Playbook
 
@@ -27,3 +37,9 @@ These are concrete software income ideas built around selected APIs. Each playbo
 - Fast MVP with limited custom infrastructure
 - A business model that can start as a service and evolve into software
 
+## Fastest Paths To Revenue
+
+- Reports clients can act on this week
+- Monitoring dashboards that replace manual research
+- Prospecting tools that create cleaner lists or better timing
+- Intelligence products that help a buyer make a decision faster
