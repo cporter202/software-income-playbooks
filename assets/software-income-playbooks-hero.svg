@@ -1,69 +1,95 @@
-<svg width="1440" height="820" viewBox="0 0 1440 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="84" y1="48" x2="1308" y2="760" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1020"/>
-      <stop offset="0.45" stop-color="#101A33"/>
-      <stop offset="1" stop-color="#0E2A2B"/>
+    <linearGradient id="pageBg" x1="64" y1="42" x2="1500" y2="884" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A303A"/>
+      <stop offset="1" stop-color="#20262F"/>
     </linearGradient>
-    <linearGradient id="card" x1="236" y1="162" x2="1176" y2="706" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#102347"/>
-      <stop offset="1" stop-color="#112E2C"/>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(310 180) rotate(24) scale(420 220)">
+      <stop stop-color="#3DA1FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3DA1FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1340 156) rotate(170) scale(330 180)">
+      <stop stop-color="#EAC85F" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#EAC85F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottom" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 772) rotate(156) scale(540 250)">
+      <stop stop-color="#2FD6A1" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#2FD6A1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frameBg" x1="122" y1="116" x2="1490" y2="812" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151C44"/>
+      <stop offset="1" stop-color="#123129"/>
     </linearGradient>
-    <linearGradient id="accent" x1="270" y1="154" x2="1060" y2="604" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7DD3FC"/>
-      <stop offset="0.5" stop-color="#FDE68A"/>
-      <stop offset="1" stop-color="#86EFAC"/>
+    <linearGradient id="panelBg" x1="142" y1="136" x2="1460" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19335C"/>
+      <stop offset="1" stop-color="#173E37"/>
     </linearGradient>
-    <filter id="blur" x="-120" y="-120" width="1680" height="1060" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="60"/>
+    <linearGradient id="headline" x1="184" y1="284" x2="764" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4EC5FF"/>
+      <stop offset="0.5" stop-color="#8FE7D6"/>
+      <stop offset="1" stop-color="#E7F1B5"/>
+    </linearGradient>
+    <filter id="softBlur" x="0" y="0" width="1600" height="920" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="32"/>
     </filter>
   </defs>
-  <rect width="1440" height="820" rx="36" fill="url(#bg)"/>
-  <g opacity="0.24" filter="url(#blur)">
-    <circle cx="205" cy="126" r="170" fill="#38BDF8"/>
-    <circle cx="1230" cy="150" r="150" fill="#F59E0B"/>
-    <circle cx="1180" cy="678" r="170" fill="#34D399"/>
+
+  <rect width="1600" height="920" rx="0" fill="url(#pageBg)"/>
+  <g filter="url(#softBlur)">
+    <ellipse cx="318" cy="170" rx="280" ry="120" fill="url(#glowLeft)"/>
+    <ellipse cx="1344" cy="154" rx="220" ry="112" fill="url(#glowRight)"/>
+    <ellipse cx="1278" cy="772" rx="390" ry="180" fill="url(#glowBottom)"/>
   </g>
-  <path d="M112 160H1328" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-  <path d="M112 650H1328" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-  <path d="M240 92V728" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <path d="M1104 92V728" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <rect x="82" y="74" width="1276" height="672" rx="28" fill="url(#card)" stroke="rgba(255,255,255,0.10)" stroke-width="1.5"/>
-  <rect x="116" y="108" width="180" height="42" rx="21" fill="rgba(125,211,252,0.12)" stroke="rgba(125,211,252,0.35)" />
-  <text x="146" y="135" fill="#D8F4FF" font-size="20" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">Software Income Playbooks</text>
-  <text x="118" y="244" fill="white" font-size="72" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">Find APIs worth</text>
-  <text x="118" y="326" fill="url(#accent)" font-size="72" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">building a business on</text>
-  <text x="118" y="390" fill="#B8C4D9" font-size="28" font-family="'Segoe UI', Arial, sans-serif">Curated APIs, concrete playbooks, MVP scopes, pricing ideas,</text>
-  <text x="118" y="428" fill="#B8C4D9" font-size="28" font-family="'Segoe UI', Arial, sans-serif">and go-to-market paths for founders, agencies, and automation builders.</text>
-  <rect x="118" y="478" width="230" height="58" rx="29" fill="#F8FAFC"/>
-  <text x="155" y="515" fill="#0F172A" font-size="24" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">Curated, not dumped</text>
-  <rect x="366" y="478" width="202" height="58" rx="29" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.14)"/>
-  <text x="402" y="515" fill="#E7F0FF" font-size="24" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">Revenue-first ideas</text>
-  <rect x="118" y="590" width="166" height="92" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
-  <text x="146" y="625" fill="#D6E4FF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Playbooks</text>
-  <text x="146" y="667" fill="white" font-size="38" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">20+</text>
-  <rect x="306" y="590" width="166" height="92" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
-  <text x="334" y="625" fill="#D6E4FF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Curated APIs</text>
-  <text x="334" y="667" fill="white" font-size="38" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">25+</text>
-  <rect x="494" y="590" width="166" height="92" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
-  <text x="522" y="625" fill="#D6E4FF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Fast MVPs</text>
-  <text x="522" y="667" fill="white" font-size="38" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">Days</text>
-  <rect x="754" y="164" width="522" height="196" rx="28" fill="rgba(9,15,28,0.52)" stroke="rgba(255,255,255,0.14)"/>
-  <text x="792" y="214" fill="#C9F4FF" font-size="22" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">High-upside stacks</text>
-  <rect x="792" y="242" width="206" height="92" rx="20" fill="rgba(125,211,252,0.10)" stroke="rgba(125,211,252,0.26)"/>
-  <text x="816" y="274" fill="#EAF9FF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Local Lead Gen</text>
-  <text x="816" y="305" fill="white" font-size="17" font-family="'Segoe UI', Arial, sans-serif">Maps + Reviews + SEO</text>
-  <rect x="1020" y="242" width="216" height="92" rx="20" fill="rgba(253,230,138,0.10)" stroke="rgba(253,230,138,0.28)"/>
-  <text x="1044" y="274" fill="#FFF5CF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">B2B Intelligence</text>
-  <text x="1044" y="305" fill="white" font-size="17" font-family="'Segoe UI', Arial, sans-serif">LinkedIn + Research + Ads</text>
-  <rect x="754" y="392" width="522" height="290" rx="28" fill="rgba(8,13,24,0.58)" stroke="rgba(255,255,255,0.14)"/>
-  <text x="792" y="444" fill="#E8FFF4" font-size="24" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">What buyers actually pay for</text>
-  <g fill="#D8E7F9" font-size="21" font-family="'Segoe UI', Arial, sans-serif">
-    <text x="792" y="500">- monitoring and alerts</text>
-    <text x="792" y="542">- prospecting and lead lists</text>
-    <text x="792" y="584">- competitive intelligence</text>
-    <text x="792" y="626">- reports buyers can act on</text>
-  </g>
-  <rect x="1124" y="522" width="112" height="112" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
-  <path d="M1153 579L1175 601L1211 565" stroke="#86EFAC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="60" y="42" width="1480" height="848" rx="34" fill="url(#frameBg)"/>
+  <rect x="146" y="118" width="1308" height="700" rx="30" fill="url(#panelBg)" stroke="rgba(216,237,255,0.16)" stroke-width="2"/>
+
+  <rect x="178" y="156" width="196" height="38" rx="19" fill="#1C4477" stroke="rgba(188,221,255,0.30)" stroke-width="1.5"/>
+  <text x="204" y="181" fill="#F5F8FF" font-size="22" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">Software Income Playbooks</text>
+
+  <text x="182" y="292" fill="#FDFEFF" font-size="78" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">Find APIs worth</text>
+  <text x="182" y="380" fill="url(#headline)" font-size="78" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">building a business on</text>
+
+  <text x="182" y="448" fill="#DAE4F6" font-size="26" font-family="'Segoe UI', Arial, sans-serif">Curated APIs, concrete playbooks, MVP scopes, pricing ideas,</text>
+  <text x="182" y="484" fill="#DAE4F6" font-size="26" font-family="'Segoe UI', Arial, sans-serif">and go-to-market paths for founders, agencies, and automation builders.</text>
+
+  <rect x="182" y="540" width="238" height="62" rx="31" fill="#F8FAFD"/>
+  <text x="224" y="580" fill="#101A33" font-size="28" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">Curated, not dumped</text>
+
+  <rect x="438" y="540" width="230" height="62" rx="31" fill="#294364"/>
+  <text x="480" y="580" fill="#F6FAFF" font-size="28" font-family="'Segoe UI', Arial, sans-serif" font-weight="700">Revenue-first ideas</text>
+
+  <rect x="182" y="656" width="176" height="96" rx="18" fill="#264261" fill-opacity="0.92" stroke="rgba(230,241,255,0.08)" stroke-width="1.5"/>
+  <text x="206" y="694" fill="#E7F1FF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Playbooks</text>
+  <text x="206" y="736" fill="white" font-size="44" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">20+</text>
+
+  <rect x="380" y="656" width="176" height="96" rx="18" fill="#264261" fill-opacity="0.92" stroke="rgba(230,241,255,0.08)" stroke-width="1.5"/>
+  <text x="404" y="694" fill="#E7F1FF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Curated APIs</text>
+  <text x="404" y="736" fill="white" font-size="44" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">25+</text>
+
+  <rect x="578" y="656" width="176" height="96" rx="18" fill="#264261" fill-opacity="0.92" stroke="rgba(230,241,255,0.08)" stroke-width="1.5"/>
+  <text x="610" y="694" fill="#E7F1FF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Fast MVPs</text>
+  <text x="610" y="736" fill="white" font-size="44" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">Days</text>
+
+  <rect x="816" y="210" width="540" height="146" rx="26" fill="#12253A" stroke="rgba(229,242,255,0.12)" stroke-width="1.5"/>
+  <text x="850" y="254" fill="#FFFFFF" font-size="30" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">High-upside stacks</text>
+
+  <rect x="850" y="282" width="214" height="84" rx="18" fill="#2C3E58" fill-opacity="0.86" stroke="rgba(251,233,160,0.18)" stroke-width="1.5"/>
+  <text x="872" y="314" fill="#FFF8DA" font-size="20" font-family="'Segoe UI', Arial, sans-serif">Local Lead Gen</text>
+  <text x="872" y="350" fill="#F6FBFF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">Maps + Reviews + SEO</text>
+
+  <rect x="1080" y="282" width="232" height="84" rx="18" fill="#3B3E2B" fill-opacity="0.80" stroke="rgba(251,233,160,0.22)" stroke-width="1.5"/>
+  <text x="1104" y="314" fill="#FFF8DA" font-size="20" font-family="'Segoe UI', Arial, sans-serif">B2B Intelligence</text>
+  <text x="1104" y="350" fill="#F6FBFF" font-size="18" font-family="'Segoe UI', Arial, sans-serif">LinkedIn + Research + Ads</text>
+
+  <rect x="816" y="422" width="540" height="252" rx="26" fill="#0E1826" stroke="rgba(229,242,255,0.12)" stroke-width="1.5"/>
+  <text x="850" y="474" fill="#FFFFFF" font-size="34" font-family="'Segoe UI', Arial, sans-serif" font-weight="800">What buyers actually pay for</text>
+
+  <text x="852" y="534" fill="#F2F7FF" font-size="24" font-family="'Segoe UI', Arial, sans-serif">- monitoring and alerts</text>
+  <text x="852" y="580" fill="#F2F7FF" font-size="24" font-family="'Segoe UI', Arial, sans-serif">- prospecting and lead lists</text>
+  <text x="852" y="626" fill="#F2F7FF" font-size="24" font-family="'Segoe UI', Arial, sans-serif">- competitive intelligence</text>
+  <text x="852" y="672" fill="#F2F7FF" font-size="24" font-family="'Segoe UI', Arial, sans-serif">- reports buyers can act on</text>
+
+  <rect x="1186" y="560" width="118" height="118" rx="22" fill="#213544" stroke="rgba(229,242,255,0.12)" stroke-width="1.5"/>
+  <path d="M1222 618L1247 642L1294 594" stroke="#78F3B3" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
