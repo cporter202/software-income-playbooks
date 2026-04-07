@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/software-income-playbooks-hero.svg" alt="Software Income Playbooks hero" width="100%" />
+  <img src="./assets/software-income-playbooks-header-v2.svg" alt="Software Income Playbooks hero" width="100%" />
 </p>
 
 <div align="center">
