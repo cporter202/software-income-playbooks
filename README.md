@@ -6,6 +6,14 @@
 
 # Software Income Playbooks
 
+![GitHub stars](https://img.shields.io/github/stars/cporter202/software-income-playbooks?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/cporter202/software-income-playbooks?style=for-the-badge&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/cporter202/software-income-playbooks?style=for-the-badge&logo=github)
+![Curated APIs](https://img.shields.io/badge/Curated%20APIs-26-0ea5e9?style=for-the-badge)
+![Playbooks](https://img.shields.io/badge/Playbooks-23-22c55e?style=for-the-badge)
+![Categories](https://img.shields.io/badge/Categories-12-f59e0b?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Apify%20%2B%20Monetization-111827?style=for-the-badge)
+
 **Curated APIs + concrete software ideas + monetization-first playbooks**
 
 Find practical ways to turn strong APIs into products, automations, dashboards, lead-gen systems, agency offers, and premium research tools.
@@ -13,6 +21,12 @@ Find practical ways to turn strong APIs into products, automations, dashboards, 
 [Browse Playbooks](./playbooks/README.md) | [Browse APIs](./apis/README.md) | [Browse Categories](./categories/README.md) | [Use Templates](./templates/README.md)
 
 </div>
+
+## Star This Repo
+
+If this repo gives you a build idea, saves you research time, or helps you spot a better API opportunity, give it a star.
+
+That makes it easier for more builders to find it, and it gives the repo social proof as the playbook library grows.
 
 ## Why This Repo Exists
 
@@ -37,6 +51,13 @@ This repo is built to answer those questions fast.
 | [Categories](./categories/README.md) | Opportunity maps by market like lead gen, recruiting, local business, SEO, real estate, hospitality, and more |
 | [Templates](./templates/README.md) | Reusable formats for adding new ideas, API profiles, MVP specs, and GTM plans |
 | [Resources](./resources/README.md) | Practical docs on choosing APIs, validating ideas, and pricing micro-SaaS or productized services |
+
+## Why Builders Keep Coming Back
+
+- fast-to-understand business ideas instead of vague startup brainstorming
+- API picks filtered for commercial usefulness, not novelty
+- clear paths from manual service to recurring software revenue
+- playbooks that help you decide what is worth building before you overbuild it
 
 ## This Is For
 
@@ -155,6 +176,14 @@ The goal is to help you reach a fast conclusion:
 ## Transparency
 
 Some API links in this repo preserve affiliate tracking from the original source material. That does not change the selection standard here: the bar is still whether an API can credibly support a useful business.
+
+## Stargazers
+
+<p align="center">
+  <a href="https://github.com/cporter202/software-income-playbooks/stargazers">
+    <img src="https://api.star-history.com/svg?repos=cporter202/software-income-playbooks&type=Date" alt="Star History Chart for software-income-playbooks" width="100%" />
+  </a>
+</p>
 
 ## Legacy Source Material
 
