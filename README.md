@@ -6,17 +6,6 @@
 
 # Software Income Playbooks
 
-<!-- AIWITHCHRIS-BANNER-START -->
-<p align="center">
-  <a href="https://aiwithchris.com" target="_blank" rel="noopener">
-    <img src=".github/assets/ai-toolkit-banner.png" alt="Hey, I'm Chris — Work Smarter, Create Faster, Earn More With AI. Join my AI Playbook at aiwithchris.com, $10/month" width="100%">
-  </a>
-</p>
-<p align="center">
-  <a href="https://aiwithchris.com"><strong>🚀 Join my AI Playbook — aiwithchris.com</strong></a><br>
-  $10/month · 3,600+ prompts · agent workflows · repo breakdowns · money ideas
-</p>
-<!-- AIWITHCHRIS-BANNER-END -->
 
 ![GitHub stars](https://img.shields.io/github/stars/cporter202/software-income-playbooks?style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/cporter202/software-income-playbooks?style=for-the-badge&logo=github)
@@ -200,3 +189,16 @@ Some API links in this repo preserve affiliate tracking from the original source
 ## Legacy Source Material
 
 The original cloned mega-list content still exists in [archive/legacy-api-dump](./archive/legacy-api-dump/) for traceability and future mining, but the main experience is now curated.
+
+<!-- AIWITHCHRIS-BANNER-START -->
+<p align="center">
+  <a href="https://aiwithchris.com" target="_blank" rel="noopener">
+    <img src=".github/assets/ai-toolkit-banner.png" alt="Hey, I'm Chris — Work Smarter, Create Faster, Earn More With AI. Join my AI Playbook at aiwithchris.com, $10/month" width="100%">
+  </a>
+</p>
+<p align="center">
+  <a href="https://aiwithchris.com"><strong>🚀 Join my AI Playbook — aiwithchris.com</strong></a><br>
+  $10/month · 3,600+ prompts · agent workflows · repo breakdowns · money ideas
+</p>
+<!-- AIWITHCHRIS-BANNER-END -->
+
